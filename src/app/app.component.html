@@ -1,0 +1,6 @@
+<ul class="nav nav-pills">
+        <li role="presentation" routerLinkActive = "active" [routerLinkActiveOptions]="{ exact: true }"><a routerLink = "/">Home</a></li>
+        <li role="presentation" routerLinkActive = "active"><a [routerLink] = "['/archieve', 2018, 1]">Archieve</a></li>
+        <li role="presentation" routerLinkActive = "active"><a [routerLink] = "['/unknown']">Messages</a></li>
+</ul><br><br>
+<router-outlet></router-outlet>
